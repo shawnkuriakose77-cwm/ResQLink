@@ -1,0 +1,9 @@
+RESQLINK Netlify build fix
+
+Fixed components/ResQLinkApp.tsx by removing the duplicated ResponderModule and RequestStatus imports.
+The file now contains one ResponderModule import and one RequestStatus type import.
+
+Netlify settings:
+Build command: npm run build
+Publish directory: .next
+Node: 20+
